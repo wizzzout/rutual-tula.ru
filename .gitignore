@@ -1,5 +1,35 @@
-wordpress/
-wp-config.php
+# Environment
 .env
-.DS_Store
+
+# WordPress core
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/wp-*.php
+wordpress/index.php
+wordpress/xmlrpc.php
+
+wordpress/wp-content/themes/index.php
+wordpress/wp-content/themes/twentytwentyfive
+wordpress/wp-content/themes/twentytwentyfour
+wordpress/wp-content/themes/twentytwentythree
+
+wordpress/wp-content/plugins/
+wordpress/wp-content/index.php
+wordpress/.htaccess
+wordpress/license.txt
+wordpress/readme.html
+
+# Database
+mysql/
+*.sql
+
+# Logs
 *.log
+debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml

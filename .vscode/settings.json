@@ -1,6 +1,7 @@
 {
-	"php.validate.executablePath": "/usr/local/bin/php",
+	"intelephense.stubs": ["wordpress"],
+	"intelephense.diagnostics.undefinedFunctions": false,
 	"files.associations": {
-		"*.php": "html"
+		"*.php": "php"
 	}
 }
