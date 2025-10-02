@@ -17,3 +17,11 @@ wp core install --url=localhost:8000 --title="Site" --admin_user=admin --admin_p
 ## Выходим
 
 exit
+
+# WooCommerce Smooth Generator
+
+## Install
+
+1. Download the latest release as a zip file from https://github.com/woocommerce/wc-smooth-generator/releases/
+
+2. Install in your WordPress site as you would any other plugin zip file.
